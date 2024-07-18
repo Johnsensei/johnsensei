@@ -1,0 +1,160 @@
+.japanese{
+    padding: 1px;
+    background-color: #000000;
+    width: 100%;
+}
+
+.japanese-title {
+    font-size: 2em;
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    color: #ffffff;
+
+    @media (max-width: 768px) { /* Adjust max-width to your tablet or smartphone breakpoint */
+        font-size: 1.5em;
+    }
+}
+
+.japanese-container {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+}
+
+.japanese-image {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    max-width: 25%; /* Ensure image doesn't exceed its container width */
+    display: block; /* Prevent inline-block whitespace issues */
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
+
+.credentials-container {
+    padding-left: 5px;
+    padding-right: 100px;
+
+    @media (max-width: 768px) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+.credentials-title-text {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    display: flex; /* Ensure image and text (later) are flex items */
+    align-items: flex-start; /* Align items to the start (left) */
+
+    @media (max-width: 768px) { /* Adjust max-width to your tablet or smartphone breakpoint */
+        padding-left: 10px;
+    }
+
+    @media (max-width: 600px) { /* Adjust max-width to your tablet or smartphone breakpoint */
+        font-size: 0.95em;
+        padding-left: 10px;
+    }
+}
+
+.credentials-item {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    text-align: left;
+
+    @media (max-width: 768px) {
+        font-size: 0.95em;
+    }
+}
+
+.credentials-sub-item {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    text-align: left;
+
+    @media (max-width: 768px) {
+        font-size: 0.95em;
+    }
+}
+
+.exp-items-row {
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 100%;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+    }
+}
+
+.exp-item {
+    max-width: 250px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    display: inline-block; /* Ensures anchor tag only takes up the necessary width */
+
+    display: flex; /* Ensure image and text (later) are flex items */
+
+    flex-direction: column;
+    
+    @media (max-width: 768px) { /* Adjust max-width to your tablet or smartphone breakpoint */
+        max-width: 60%;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 30px;
+    }
+}
+
+.exp-image {
+    max-width: 100%; /* Ensure image doesn't exceed its container width */
+    display: block; /* Prevent inline-block whitespace issues */
+}
+
+.exp-text {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 0.99em;
+    margin-top: 5px;
+    margin-bottom: 0;
+
+    @media (max-width: 768px) {
+        font-size: 0.86em;
+    }
+}
+
+.exp-text-anchor {
+    color: #0000ff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 0.99em;
+    margin-top: 5px;
+    margin-bottom: 0;
+
+    @media (max-width: 768px) {
+        font-size: 0.86em;
+    }
+}
+
+.exp-item a {
+    color: #0000ff !important;
+}

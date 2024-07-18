@@ -1,0 +1,99 @@
+.game-dev{
+    padding: 1px;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.game-dev-title {
+    font-size: 2em;
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    color: #000000;
+
+    @media (max-width: 768px) { /* Adjust max-width to your tablet or smartphone breakpoint */
+        font-size: 1.5em;
+    }
+}
+
+.game-dev-container {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }  
+}
+
+.game-dev-image {
+    padding-left: 0px;
+    padding-right: 50px;
+    max-width: 15%; /* Ensure image doesn't exceed its container width */
+    display: block; /* Prevent inline-block whitespace issues */
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
+
+.game-items-row{
+    display: flex;
+    flex: 1;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 100%;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+}
+
+.game-item-parent{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 35px;
+
+    @media (max-width: 768px) {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.game-item {
+    max-width: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    display: inline-block; /* Ensures anchor tag only takes up the necessary width */
+
+    display: flex; /* Ensure image and text (later) are flex items */
+
+    flex-direction: column;
+    
+    @media (max-width: 768px) { /* Adjust max-width to your tablet or smartphone breakpoint */
+        max-width: 60%;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 10px;
+    }
+}
+
+.game-item a {
+    display: inline-block; /* Ensures anchor tag only takes up the necessary width */
+     /* Aligns contents to the left */
+    
+    @media (max-width: 768px) {
+        max-width: 100%;
+    }
+}
+
+.game-image {
+    max-width: 100%; /* Ensure image doesn't exceed its container width */
+    display: block; /* Prevent inline-block whitespace issues */
+}

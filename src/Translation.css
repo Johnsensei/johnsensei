@@ -1,0 +1,139 @@
+.translation {
+    padding: 1px;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.translation-title {
+    font-size: 2em;
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    color: #000000;
+
+    @media (max-width: 768px) {
+        font-size: 1.5em;
+    }
+}
+
+.translation-container {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }  
+}
+
+.translation-image {
+    padding-left: 0px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    max-width: 15%; /* Ensure image doesn't exceed its container width */
+    display: block; /* Prevent inline-block whitespace issues */
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
+
+.translation-items-row {
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 100%;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.translation-item-parent {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+
+    @media (max-width: 768px) {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.translation-item {
+    max-width: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* padding-bottom: 10px; */
+    display: inline-block; /* Ensures anchor tag only takes up the necessary width */
+
+    display: flex; /* Ensure image and text (later) are flex items */
+
+    flex-direction: column;
+    
+    @media (max-width: 768px) { /* Adjust max-width to your tablet or smartphone breakpoint */
+        max-width: 60%;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 10px;
+    }
+}
+
+.translation-item a {
+    display: inline-block;
+    
+    @media (max-width: 768px) {
+        max-width: 100%;
+    }
+}
+
+.translation-item-text {
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 1.75em;
+    margin-bottom: 5px;
+
+    @media (max-width: 768px) {
+        margin-top: 0;
+        font-size: 1.45em;
+    }
+}
+
+.translation-item-image {
+    max-width: 100%; /* Ensure image doesn't exceed its container width */
+    display: block; /* Prevent inline-block whitespace issues */
+}
+
+.faq-parent {
+    padding-bottom: 30px;
+}
+
+.faq-text {
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+
+    @media (max-width: 768px) {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+.faq-text-anchor {
+    color: #0000ff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
