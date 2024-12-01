@@ -43,7 +43,11 @@ function GameDev () {
                         </div>
                     </div>
                 </div>
+                
             </div>
+            <div className="privacy-policy">
+                    <p>Privacy Policy: I don't collect or use any of your personal data in my apps, games, or websites.</p>
+                </div>
         </div>
     );
 }
