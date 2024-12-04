@@ -47,6 +47,7 @@ function GameDev () {
             </div>
             <div className="privacy-policy">
                     <p>Privacy Policy: I don't collect or use any of your personal data in my apps, games, or websites.</p>
+                    <p>App and Game Support Email: <a href="mailto:johnsenseigames@gmail.com">johnsenseigames@gmail.com</a></p>
                 </div>
         </div>
     );
