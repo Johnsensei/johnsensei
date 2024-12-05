@@ -1,0 +1,40 @@
+.privacy-page {
+    text-align: center; /* Center-align the text */
+    margin: 20px auto; /* Add margin around the page */
+    padding: 20px; /* Add padding for spacing */
+    max-width: 800px; /* Limit the width for better readability */
+    background-color: #f9f9f9; /* Light background for better contrast */
+    border: 1px solid #ccc; /* Optional border for a cleaner look */
+    border-radius: 8px; /* Rounded corners */
+}
+
+h1, h2 {
+    color: #333; /* Darker text color for headings */
+    margin-bottom: 15px; /* Add spacing below headings */
+}
+
+p {
+    color: #555; /* Slightly lighter text color for paragraphs */
+    line-height: 1.6; /* Improve readability */
+    margin-bottom: 15px; /* Add space below paragraphs */
+}
+
+ul {
+    text-align: left; /* Align list items to the left */
+    margin: 10px 20px; /* Add margin around the list */
+    padding: 0; /* Remove default padding */
+    list-style-type: disc; /* Use default bullets */
+}
+
+li {
+    margin-bottom: 10px; /* Add space between list items */
+}
+
+a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
