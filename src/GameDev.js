@@ -46,8 +46,8 @@ function GameDev () {
                 
             </div>
             <div className="privacy-policy">
-                    <p><a href="https://www.johnsensei.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>: I don't collect or use any of your personal data in my apps, games, or websites.</p>
-                    <p><a href="https://www.johnsensei.com/support" target="_blank" rel="noopener noreferrer">App and Game Support</a></p>
+                    <p><a href="https://www.johnsensei.com/privacy">Privacy Policy</a>: I don't collect or use any of your personal data in my apps, games, or websites.</p>
+                    <p><a href="https://www.johnsensei.com/support">App and Game Support</a></p>
             </div>
 
         </div>

@@ -49,7 +49,7 @@ function Privacy() {
                 I may update this privacy policy from time to time. Any changes will be posted on this page.
             </p>
             <p>
-                Return to <a href="https://www.johnsensei.com" target="_blank" rel="noopener noreferrer">johnsensei.com</a>
+                Return to <a href="https://www.johnsensei.com">johnsensei.com</a>
             </p>
         </div>
     );

@@ -23,7 +23,7 @@ function Support() {
                 <a href="https://forms.gle/7ET6P2BP3VSxhaxh9" target="_blank" rel="noopener noreferrer">Feedback Form</a>
             </p>
             <p>
-                Return to <a href="https://www.johnsensei.com" target="_blank" rel="noopener noreferrer">johnsensei.com</a>
+                Return to <a href="https://www.johnsensei.com">johnsensei.com</a>
             </p>
         </div>
     );
