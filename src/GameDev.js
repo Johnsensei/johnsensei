@@ -13,7 +13,7 @@ function GameDev () {
             <img src={johnsenseiGameImage} alt="Game Dev Johnsensei" className="game-dev-image" />
                 <div className="game-items-row">
                  {/* Hiragana Breaker */}
-                 <div className="game-item-parent">
+                 {/* <div className="game-item-parent">
                         <div className="game-item">
                             <div className="game-image-container">
                                 <a href='https://apps.apple.com/us/app/hiragana-breaker/id1207140118' target="_blank" rel="noopener noreferrer" >
@@ -21,7 +21,7 @@ function GameDev () {
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 {/* Game Jams */}
                 <div className="game-item-parent">
                         <div className="game-item">
